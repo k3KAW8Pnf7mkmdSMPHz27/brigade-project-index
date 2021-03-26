@@ -14,3 +14,6 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'no'
+          folder-path: './docs'
+          file-path: './README.md'
+          config-file: '/config.json'
