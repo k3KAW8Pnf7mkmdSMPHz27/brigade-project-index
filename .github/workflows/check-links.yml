@@ -16,4 +16,4 @@ jobs:
           use-verbose-mode: 'no'
           folder-path: './docs'
           file-path: './README.md'
-          config-file: '/config.json'
+          config-file: './markdown-link-check-config.json'
