@@ -15,7 +15,7 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'no'
-          config-file: './markdown-link-check-config.yml'
+          config-file: './markdown-link-check-config.json'
   lint-changelog:
     name: Markdown linter
     runs-on: ubuntu-latest
@@ -25,5 +25,5 @@ jobs:
       - name: Markdown linter
         uses: docker://avtodev/markdown-lint:v1
         with:
-          config: './markdown-linter-configuration.json'
+          config: './markdown-linter-configuration.yml'
           args: '**/*.md' # This is a glob
