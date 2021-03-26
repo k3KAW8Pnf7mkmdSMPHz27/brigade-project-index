@@ -1,6 +1,6 @@
 # Objective
 
-Make Civic projects discoverable. 
+Make Civic projects discoverable.
 
 For research, for volunteering, for collaboration, find and contribute civic projects to a nationwide network of volunteers.
 
