@@ -25,5 +25,5 @@ jobs:
       - name: Markdown linter
         uses: docker://avtodev/markdown-lint:v1
         with:
-          config: 'markdown-linter-configuration.json'
+          config: './markdown-linter-configuration.json'
           args: '**/*.md' # This is a glob
