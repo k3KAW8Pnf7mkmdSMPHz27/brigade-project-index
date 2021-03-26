@@ -8,7 +8,7 @@ hab pkg install \
 
 
 # load studio toolkit
-source "$(hab pkg path jarvus/studio-toolkit)/studio.sh"
+source "$(hab pkg path jarvus/studio-toolkit)/studio.sh" 
 
 
 # load MkDocs studio
