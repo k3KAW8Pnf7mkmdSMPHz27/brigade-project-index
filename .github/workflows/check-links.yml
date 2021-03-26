@@ -15,7 +15,7 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'no'
-          config-file: './markdown-link-check-config.json'
+          config-file: './markdown-link-check-config.yml'
   lint-changelog:
     name: Markdown linter
     runs-on: ubuntu-latest
